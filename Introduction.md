@@ -30,7 +30,7 @@ This course uses an [MIT License](license.md).
 
 Pick your course and let's get started!
 
-- [C# for Beginners](course/CSharp_Beginner/csharp_beginner_introduction)
+- [C# for Beginners](course/CSharp_Beginner/csharp_beginner_introduction.md)
 
     In this course, we'll guide you through the basics of C# programming, from setting up your development environment to writing your first lines of code. You'll learn about variables, data types, control structures, and more as you build a solid foundation in C# programming.
 
@@ -44,14 +44,14 @@ Pick your course and let's get started!
     - <font color="#B55B20"> Recommended for intermediate to advanced learners who want to deepen their understanding of C# programming. </font>
     - Requirements: Basic knowledge of C# programming or other object oriented programming languages.
 
-- [Softwaredevelopment for Beginners](course/Softwaredevelopment_Beginner/dev_beginner_introduction)
+- [Softwaredevelopment for Beginners](course/Softwaredevelopment_Beginner/dev_beginner_introduction.md)
     
     In this course, we'll introduce you to the world of software development and guide you through the basics of programming using the Avalonia Framework. You'll learn how to create desktop applications, work with user interfaces, and build interactive software projects.
 
     - <font color="#B55B20"> Recommended for beginners who are new to software development or want to explore desktop application development using the Avalonia Framework. </font>
     - Requirements: Knowledge of basic object-oriented programming and a basic understanding of C# programming.
 
-- [Softwaredevelopment for Advanced](course/Softwaredevelopment_Advanced/dev_advanced_introduction)
+- [Softwaredevelopment for Advanced](course/Softwaredevelopment_Advanced/dev_advanced_introduction.md)
 
     Ready to take your software development skills to the next level? In this course, we'll explore advanced topics like data binding, MVVM architecture, and custom controls. You'll also learn how to create responsive user interfaces, handle user input, and build complex software projects.
 
