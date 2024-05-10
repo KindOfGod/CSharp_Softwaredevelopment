@@ -4,7 +4,7 @@
         style="width: 250; height: 250; margin-left: auto; margin-right: auto;"/>
 </div>
 
-# Unlocking C#: From Beginner to Ninja in Software Development
+#  Unlocking C#: From Beginner to Ninja in Software Development
 
 Welcome to our comprehensive C# Software Development course, where we embark on an exciting journey into the world of programming! Whether you're a complete beginner eager to dive into the fundamentals or an advanced student looking to refine your skills, this course is tailored just for you.
 
