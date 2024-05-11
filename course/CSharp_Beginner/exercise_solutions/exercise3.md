@@ -1,3 +1,15 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: false
+
+print_background: true
+export_on_save:
+  html: true
+---
+
 # 🔍 Solution for Exercise 3
 
 ## </> Programm
@@ -43,4 +55,4 @@ Input: 1990
 Output: Hello John, you are 34 years old.
 ```
 
-[↩ Back to Chapter 1](../chapters/chapter1.md)
+[↩ Back to Chapter 1](../chapters/chapter1.html)

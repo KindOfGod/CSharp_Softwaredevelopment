@@ -1,3 +1,15 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: false
+
+print_background: true
+export_on_save:
+  html: true
+---
+
 # 🔍 Solution for Exercise 1
 
 ## </> Programm
@@ -22,4 +34,4 @@ class Program
 The square of 10 is 100.
 ```
 
-[↩ Back to Chapter 1](../chapters/chapter1.md)
+[↩ Back to Chapter 1](../chapters/chapter1.html)

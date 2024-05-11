@@ -1,3 +1,15 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: false
+
+print_background: true
+export_on_save:
+  html: true
+---
+
 # 📖 Chapter 1
 
 In this section, we'll cover the fundamental building blocks of C# programming, including how to output information to the console, receive input from the user, declare variables, and understand various data types.
@@ -17,7 +29,7 @@ class Program
     }
 }
 ```
-Programming consists of writing instructions for the computer to execute. The `Main` method is the entry point of a C# program. 
+Programming consists of writing instructions for the program to execute. The `Main` method is the entry point of a C# program. 
 When you run a C# program from the command line, the `Main` method is the first method that gets executed.
 
 For now, you can ignore the `using System;` and `class Program` lines. We'll explain them in more detail later. The important part is the `Main` method, which is where you'll write your code.
@@ -52,7 +64,7 @@ In this exercise, you'll write a simple C# program that displays your name on th
 </details>
 <br>
 
-[🔍 Solution: Exercise 1](../exercise_solutions/exercise1.md)
+[🔍 Solution: Exercise 1](../exercise_solutions/exercise1.html)
 
 ## 💡 Variables and Data Types
 
@@ -117,7 +129,7 @@ Output the result to the console.
 </details>
 <br>
 
-[🔍 Solution: Exercise 2](../exercise_solutions/exercise2.md)
+[🔍 Solution: Exercise 2](../exercise_solutions/exercise2.html)
 
 ## 💡 Console Input
 
@@ -175,12 +187,12 @@ Important: Ask the user for the inputs he should provide.
 </details>
 <br>
 
-[🔍 Solution: Exercise 3](../exercise_solutions/exercise3.md)
+[🔍 Solution: Exercise 3](../exercise_solutions/exercise3.html)
 
 ----
 
-[↩ Back to Contents](../csharp_beginner_introduction.md)
+[↩ Back to Contents](../csharp_beginner_introduction.html)
 
-[👉 Next Chapter: Chapter 2](chapters/chapter2.md)
+[👉 Next Chapter: Chapter 2](../chapters/chatper2.html)
 
-[🏠 Back to C# Beginner Course](../../../Introduction.md)
+[🏠 Back to C# Beginner Course](../../../Introduction.html)

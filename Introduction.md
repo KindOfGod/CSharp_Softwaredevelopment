@@ -1,3 +1,15 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: false
+
+print_background: true
+export_on_save:
+  html: true
+---
+
 <div style="text-align:center">
     <img src="course/img/programming.png"
         alt="Markdown Monster icon"
@@ -16,7 +28,7 @@ Get ready to explore the foundational principles of C# programming, unravel the 
 
 Join us as we unlock the doors to endless possibilities in the dynamic realm of C# software development!
 
-<font color="#B53820">
+<font color="#A26099">
 
 Disclaimer:
 This course was created using generative AI using GitHub Copilot and ChatGPT. The course is for educational purposes only.
@@ -30,32 +42,32 @@ This course uses an [MIT License](license.md).
 
 Pick your course and let's get started!
 
-- [C# for Beginners](course/CSharp_Beginner/csharp_beginner_introduction.md)
+- [C# for Beginners](course/CSharp_Beginner/csharp_beginner_introduction.html)
 
     In this course, we'll guide you through the basics of C# programming, from setting up your development environment to writing your first lines of code. You'll learn about variables, data types, control structures, and more as you build a solid foundation in C# programming.
 
-    - <font color="#B55B20"> Recommended for beginners who are new to programming or want to refresh their skills. </font>
+    - <font color="#D6A552"> Recommended for beginners who are new to programming or want to refresh their skills. </font>
     - Requirements: Intrest in programming
 
-- [C# for Advanced](course/CSharp_Advanced/csharp_advanced_introduction.md)
+- [C# for Advanced](course/CSharp_Advanced/csharp_advanced_introduction.html)
     
     Ready to take your C# skills to the next level? In this course, we'll dive into advanced topics like LINQ, asynchronous programming, and exception handling. You'll also explore object-oriented programming concepts and design patterns to enhance your coding skills.
 
-    - <font color="#B55B20"> Recommended for intermediate to advanced learners who want to deepen their understanding of C# programming. </font>
+    - <font color="#D6A552"> Recommended for intermediate to advanced learners who want to deepen their understanding of C# programming. </font>
     - Requirements: Basic knowledge of C# programming or other object oriented programming languages.
 
-- [Softwaredevelopment for Beginners](course/Softwaredevelopment_Beginner/dev_beginner_introduction.md)
+- [Softwaredevelopment for Beginners](course/Softwaredevelopment_Beginner/dev_beginner_introduction.html)
     
     In this course, we'll introduce you to the world of software development and guide you through the basics of programming using the Avalonia Framework. You'll learn how to create desktop applications, work with user interfaces, and build interactive software projects.
 
-    - <font color="#B55B20"> Recommended for beginners who are new to software development or want to explore desktop application development using the Avalonia Framework. </font>
+    - <font color="#D6A552"> Recommended for beginners who are new to software development or want to explore desktop application development using the Avalonia Framework. </font>
     - Requirements: Knowledge of basic object-oriented programming and a basic understanding of C# programming.
 
-- [Softwaredevelopment for Advanced](course/Softwaredevelopment_Advanced/dev_advanced_introduction.md)
+- [Softwaredevelopment for Advanced](course/Softwaredevelopment_Advanced/dev_advanced_introduction.html)
 
     Ready to take your software development skills to the next level? In this course, we'll explore advanced topics like data binding, MVVM architecture, and custom controls. You'll also learn how to create responsive user interfaces, handle user input, and build complex software projects.
 
-    - <font color="#B55B20"> Recommended for intermediate to advanced learners who want to deepen their knowledge of software development using the Avalonia Framework. </font>
+    - <font color="#D6A552"> Recommended for intermediate to advanced learners who want to deepen their knowledge of software development using the Avalonia Framework. </font>
     - Requirements: Basic knowledge of software development and basic experience with desktop application development.
 
 ## More Tools and Resources to help you learn C#
