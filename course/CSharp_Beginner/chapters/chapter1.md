@@ -176,3 +176,11 @@ Important: Ask the user for the inputs he should provide.
 <br>
 
 [🔍 Solution: Exercise 3](../exercise_solutions/exercise3.md)
+
+----
+
+[↩ Back to Contents](../csharp_beginner_introduction.md)
+
+[👉 Next Chapter: Chapter 2](chapters/chapter2.md)
+
+[🏠 Back to C# Beginner Course](../../../Introduction.md)
