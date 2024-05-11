@@ -8,14 +8,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Max Mustermann.");
+        var x = 10;
+
+        var square = x * x;
+
+        Console.WriteLine("The square of " + x + " is " + square + ".");
     }
 }
 ```
 
 ## 🤖 Output:
 ```
-Max Mustermann.
+The square of 10 is 100.
 ```
 
 [↩ Back to Chapter 1](../chapters/chapter1.md)
