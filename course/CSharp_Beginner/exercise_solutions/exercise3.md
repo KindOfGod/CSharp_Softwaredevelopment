@@ -55,4 +55,4 @@ Input: 1990
 Output: Hello John, you are 34 years old.
 ```
 
-[↩ Back to Chapter 1](../chapters/chapter1.html)
+[↩️ Back to Chapter 1](../chapters/chapter1.html)

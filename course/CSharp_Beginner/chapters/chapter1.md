@@ -172,7 +172,7 @@ Output: 10
 In this exercise you'll write a programm, which takes in the user's name and brith year as input and outputs a greeting message with the user's name and age.
 Calculate the age of the user based on the current year. Output a greeting message with the user's name and age to the console.
 
-Important: Ask the user for the inputs he should provide.
+❗ Important: Ask the user for the inputs he should provide so the user knows what to enter.
 
 ⭐ Bonus: Try using the `DateTime.Now.Year` property to get the current year.
 
@@ -191,7 +191,7 @@ Important: Ask the user for the inputs he should provide.
 
 ----
 
-[↩ Back to Contents](../csharp_beginner_introduction.html)
+[↩️ Back to Contents](../csharp_beginner_introduction.html)
 
 [👉 Next Chapter: Chapter 2](../chapters/chatper2.html)
 

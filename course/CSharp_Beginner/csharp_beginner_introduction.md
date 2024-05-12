@@ -10,14 +10,13 @@ export_on_save:
   html: true
 ---
 
-# 📋 Contents
+# 📗 C# for Beginners
 
-Here is the list of chapters in this course:
+## 📋 Contents
 
-📖 [Chapter 1](chapters/chapter1.html)
+- 📖 [Chapter 1](chapters/chapter1.html)
+  - Hello World!
+  - Data Types and Variables
+  - Basic operations with Variables
 
-- Hello World!
-- Data Types and Variables
-- Basic operations with Variables
-
-[↩ Back to Introduction](../../Introduction.html)
+[↩️ Back to Introduction](../../Introduction.html)

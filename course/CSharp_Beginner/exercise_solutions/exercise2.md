@@ -34,4 +34,4 @@ class Program
 The square of 10 is 100.
 ```
 
-[↩ Back to Chapter 1](../chapters/chapter1.html)
+[↩️ Back to Chapter 1](../chapters/chapter1.html)
