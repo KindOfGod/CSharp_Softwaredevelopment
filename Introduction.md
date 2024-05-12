@@ -36,7 +36,7 @@ If you have any questions or find any errors in the course content, please conta
 
 </font>
 
-This course uses an [MIT License](license.md).
+This course uses an [MIT License](license.html).
 
 ## 📚 The Courses
 
