@@ -30,4 +30,6 @@ class Program
 Max Mustermann.
 ```
 
+----
+
 [↩️ Back to Chapter 1](../chapters/chapter1.html)

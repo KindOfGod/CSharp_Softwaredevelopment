@@ -12,11 +12,21 @@ export_on_save:
 
 # 📗 C# for Beginners
 
+⚙️ [Setting up the Environment](chapters/setup.html)
+
 ## 📋 Contents
 
 - 📖 [Chapter 1](chapters/chapter1.html)
-  - Hello World!
+  - My first C# Program
+  - Comments
   - Data Types and Variables
   - Basic operations with Variables
+
+- 📖 [Chapter 2](chapters/chapter2.html)
+  - Conditional Statements
+  - Arrays
+  - Loops
+
+----
 
 [↩️ Back to Introduction](../../Introduction.html)

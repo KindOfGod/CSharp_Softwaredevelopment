@@ -193,6 +193,6 @@ Calculate the age of the user based on the current year. Output a greeting messa
 
 [↩️ Back to Contents](../csharp_beginner_introduction.html)
 
-[👉 Next Chapter: Chapter 2](../chapters/chatper2.html)
+[👉 Next Chapter: Chapter 2](../chapters/chapter2.html)
 
 [🏠 Back to C# Beginner Course](../../../Introduction.html)
