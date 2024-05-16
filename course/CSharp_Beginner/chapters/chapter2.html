@@ -25,8 +25,68 @@
       <div class="crossnote markdown-preview  ">
       
 <h1 id="-chapter-2">📖 Chapter 2 </h1>
+<p>In this section, we will learn about basic conditional statements and loops in C#. We will also learn about arrays and how to use them in C#.</p>
 <h2 id="-if---statements">💡 If - Statements </h2>
-<h2 id="-switch---statements">💡 Switch - Statements </h2>
+<p>The <code>if</code> statement is used to execute a block of code only if a specified condition is true. Here's an example:</p>
+<pre data-role="codeBlock" data-info="csharp" class="language-csharp csharp"><code><span class="token class-name"><span class="token keyword keyword-var">var</span></span> condition <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span> <span class="token comment">// Condition can be true or false</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code to be executed if the condition is true</span>
+<span class="token punctuation">}</span>
+</code></pre><p>You can also use an <code>else</code> statement to execute a block of code if the condition is false, or an <code>else if</code> statement to specify a new condition to test. Here's an example:</p>
+<pre data-role="codeBlock" data-info="csharp" class="language-csharp csharp"><code><span class="token class-name"><span class="token keyword keyword-var">var</span></span> name <span class="token operator">=</span> <span class="token string">"Max"</span><span class="token punctuation">;</span> <span class="token comment">// Condition can be true or false</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>name <span class="token operator">==</span> <span class="token string">"Thomas"</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code if the condition is true</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>name <span class="token operator">==</span> <span class="token string">"Max"</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code if the condition is true</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code if both conditions are false</span>
+<span class="token punctuation">}</span>
+</code></pre><p>As you can see in the example above, the <code>if</code> statement checks if the <code>name</code> variable is equal to "Thomas". If it is, the code block inside the <code>if</code> statement is executed. If the condition is false, the <code>else if</code> statement checks if the <code>name</code> variable is equal to "Max". If it is, the code block inside the <code>else if</code> statement is executed. If both conditions are false, the code block inside the <code>else</code> statement is executed.</p>
+<h2 id="-conditions">💡 Conditions </h2>
+<p>In C#, you can use various operators to create conditions. Here are some common operators:</p>
+<ul>
+<li><code>==</code> true if the values are equal</li>
+<li><code>!=</code> true if the values are not equal</li>
+<li><code>&gt;</code> true if the left operand is greater than the right operand</li>
+<li><code>&lt;</code> true if the left operand is less than the right operand</li>
+<li><code>&gt;=</code> true if the left operand is greater than or equal to the right operand</li>
+<li><code>&lt;=</code> true if the left operand is less than or equal to the right operand</li>
+<li><code>!</code> true if the operand is false</li>
+</ul>
+<p>You can also combine conditions using logical operators:</p>
+<ul>
+<li><code>&amp;&amp;</code> AND</li>
+<li><code>||</code> OR</li>
+</ul>
+<p>Here's an example:</p>
+<pre data-role="codeBlock" data-info="csharp" class="language-csharp csharp"><code><span class="token class-name"><span class="token keyword keyword-var">var</span></span> age <span class="token operator">=</span> <span class="token number">25</span><span class="token punctuation">;</span>
+<span class="token class-name"><span class="token keyword keyword-var">var</span></span> isStudent <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>age <span class="token operator">&gt;=</span> <span class="token number">18</span> <span class="token operator">&amp;&amp;</span> isStudent<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code to be executed if the age is greater than or equal to 18 and the person is a student</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>age <span class="token operator">&lt;</span> <span class="token number">18</span> <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>isStudent<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code to be executed if the age is less than 18 or the person is not a student</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>age <span class="token operator">!=</span> <span class="token number">18</span> <span class="token operator">||</span> <span class="token operator">!</span>isStudent<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code to be executed if the age is not equal to 18 or the person is not a student</span>
+<span class="token punctuation">}</span>
+<span class="token keyword keyword-else">else</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// code to be executed if both conditions are false</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="-switch---statements">💡 Switch - Statements </h2>
 <h2 id="-arrays">💡 Arrays </h2>
 <h2 id="-while---loop">💡 While - Loop </h2>
 <h2 id="-for---loop">💡 For - Loop </h2>

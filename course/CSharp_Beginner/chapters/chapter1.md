@@ -64,7 +64,7 @@ In this exercise, you'll write a simple C# program that displays your name on th
 </details>
 <br>
 
-[🔍 Solution: Exercise 1](../exercise_solutions/exercise1.html)
+[🔍 Solution: Exercise 1](../exercise_solutions/chapter1/exercise1.html)
 
 ## 💡 Variables and Data Types
 
@@ -129,7 +129,7 @@ Output the result to the console.
 </details>
 <br>
 
-[🔍 Solution: Exercise 2](../exercise_solutions/exercise2.html)
+[🔍 Solution: Exercise 2](../exercise_solutions/chapter1/exercise2.html)
 
 ## 💡 Console Input
 
@@ -187,7 +187,7 @@ Calculate the age of the user based on the current year. Output a greeting messa
 </details>
 <br>
 
-[🔍 Solution: Exercise 3](../exercise_solutions/exercise3.html)
+[🔍 Solution: Exercise 3](../exercise_solutions/chapter1/exercise3.html)
 
 ----
 

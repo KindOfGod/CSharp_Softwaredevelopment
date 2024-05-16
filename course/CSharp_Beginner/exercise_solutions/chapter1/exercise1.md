@@ -20,20 +20,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        var x = 10;
-
-        var square = x * x;
-
-        Console.WriteLine("The square of " + x + " is " + square + ".");
+        Console.WriteLine("Max Mustermann.");
     }
 }
 ```
 
 ## 🤖 Output:
 ```
-The square of 10 is 100.
+Max Mustermann.
 ```
 
 ----
 
-[↩️ Back to Chapter 1](../chapters/chapter1.html)
+[↩️ Back to Chapter 1](../../chapters/chapter1.html)
