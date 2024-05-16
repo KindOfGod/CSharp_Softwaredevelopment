@@ -62,6 +62,9 @@ You can also combine conditions using logical operators:
 - `&&` AND
 - `||` OR
 
+There is also the modulo operator `%`:
+- `%` modulo operator (returns the remainder of a division) for example: `5 % 2` returns `1`
+
 Here's an example:
 
 ``` csharp
@@ -85,6 +88,21 @@ else
     // code to be executed if both conditions are false
 }
 ```
+
+## ⚡️ Exercise 1
+Write a C# program that checks if a number is even or odd. The program should output "The number is even." if the number is even and "The number is odd." if the number is odd.
+
+<details><summary>📌 Tipp</summary>
+<pre>
+- Read a number from the console.
+- Convert the input to an integer.
+- Check if the number is even or odd using the modulo operator (%).
+- Output the result.
+</pre>
+</details>
+<br>
+
+[🔍 Solution: Exercise 1](../exercise_solutions/chapter2/exercise1.html)
 
 
 ## 💡 Switch - Statements

@@ -10,7 +10,7 @@ export_on_save:
   html: true
 ---
 
-# 🔍 Solution for Exercise 3
+# 🔍 Chapter 1: Solution for Exercise 3
 
 ## </> Programm
 ``` csharp

@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>exercise3</title>
+      <title>exercise1</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -24,7 +24,7 @@
     
       <div class="crossnote markdown-preview  ">
       
-<h1 id="-chapter-1-solution-for-exercise-3">🔍 Chapter 1: Solution for Exercise 3 </h1>
+<h1 id="-chapter-2-solution-for-exercise-1">🔍 Chapter 2: Solution for Exercise 1 </h1>
 <h2 id="-programm">&lt;/&gt; Programm </h2>
 <pre data-role="codeBlock" data-info="csharp" class="language-csharp csharp"><code><span class="token keyword keyword-using">using</span> <span class="token namespace">System</span><span class="token punctuation">;</span>
 
@@ -32,34 +32,37 @@
 <span class="token punctuation">{</span>
     <span class="token keyword keyword-static">static</span> <span class="token return-type class-name"><span class="token keyword keyword-void">void</span></span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword keyword-string">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> args<span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
-        <span class="token comment">// Ask the user for their name</span>
-        Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"Please enter your name:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> name <span class="token operator">=</span> Console<span class="token punctuation">.</span><span class="token function">ReadLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//read a number from the console</span>
+        Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"Please enter a number:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> input <span class="token operator">=</span> Console<span class="token punctuation">.</span><span class="token function">ReadLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token comment">// Ask the user for their birth year</span>
-        Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"Please enter your birth year:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> inputYear <span class="token operator">=</span> Console<span class="token punctuation">.</span><span class="token function">ReadLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//convert the input to an integer</span>
+        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> number <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToInt32</span><span class="token punctuation">(</span>input<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token comment">// convert the input to an integer</span>
-        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> birthYear <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToInt32</span><span class="token punctuation">(</span>inputYear<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> isEven <span class="token operator">=</span> number <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">;</span>
 
-        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> currentYear <span class="token operator">=</span> <span class="token number">2024</span><span class="token punctuation">;</span> <span class="token comment">//Bonus: "var currentYear = DateTime.Now.Year;"</span>
-
-        <span class="token comment">// Calculate the age of the user</span>
-        <span class="token class-name"><span class="token keyword keyword-var">var</span></span> age <span class="token operator">=</span> currentYear <span class="token operator">-</span> birthYear<span class="token punctuation">;</span>
-
-        <span class="token comment">// Output a greeting message with the user's name and age</span>
-        Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Hello </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">name</span><span class="token punctuation">}</span></span><span class="token string">, you are </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">age</span><span class="token punctuation">}</span></span><span class="token string"> years old."</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//check if the number is even or odd</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>isEven<span class="token punctuation">)</span>  
+        <span class="token punctuation">{</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"The number is even."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-else">else</span>
+        <span class="token punctuation">{</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"The number is odd."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><h2 id="-input--output">🤖 Input / Output: </h2>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>Output: Please enter your name:
-Input: John
-</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>Output: Please enter your birth year:
-Input: 1990
-</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>Output: Hello John, you are 34 years old.
+</code></pre><h2 id="-output">🤖 Output: </h2>
+<h5 id="case-1">Case 1: </h5>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>Output: Please enter a number:
+Input: 10
+</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>Output: The number is even.
+</code></pre><h5 id="case-2">Case 2: </h5>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>Output: Please enter a number:
+Input: 7
+</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>Output: The number is odd.
 </code></pre><hr>
-<p><a href="../../chapters/chapter1.html">↩️ Back to Chapter 1</a></p>
+<p><a href="../../chapters/chapter2.html">↩️ Back to Chapter 2</a></p>
 
       </div>
       
