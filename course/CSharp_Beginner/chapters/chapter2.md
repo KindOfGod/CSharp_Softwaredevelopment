@@ -11,7 +11,6 @@ export_on_save:
 ---
 
 # 📖 Chapter 2
-abc
 
 ## 💡 If - Statements
 
