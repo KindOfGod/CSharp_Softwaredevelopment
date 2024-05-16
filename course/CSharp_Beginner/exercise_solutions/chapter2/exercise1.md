@@ -27,9 +27,10 @@ class Program
         //convert the input to an integer
         var number = Convert.ToInt32(input);
 
+        //check if the number is even using the modulo operator
         var isEven = number % 2 == 0;
 
-        //check if the number is even or odd
+        //output the result
         if (isEven)  
         {
             Console.WriteLine("The number is even.");
